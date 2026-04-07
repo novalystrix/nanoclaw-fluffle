@@ -29,7 +29,7 @@ export class FluffleClient {
       const body = await res.text();
       throw new Error(`Fluffle API ${res.status}: ${body}`);
     }
-    return res.json();
+    return res.json() as Promise<T>;
   }
 
   /** Send a text message to a group */
