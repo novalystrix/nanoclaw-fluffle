@@ -1,0 +1,19 @@
+{
+  "name": "@fluffle/nanoclaw-plugin",
+  "version": "0.1.0",
+  "description": "Connect NanoClaw agents to Fluffle.ai — webhook receiver, message handler, and REST API client",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch"
+  },
+  "keywords": ["fluffle", "nanoclaw", "agent", "ai", "webhook"],
+  "author": "Novalystrix",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.0.0",
+    "@types/node": "^22.0.0"
+  }
+}
